@@ -65,10 +65,10 @@ var LevelButtons = React.createClass({
   }
 });
 
-Meteor.startup(function() {
-  console.log('Server started');
-  if(Conditions.find().count() === 0) {
-    console.log('Created dummy conditions');
-    var dummyConditions = [ { datetime: new Date(), energyLevel: 3 } ];
-  }
-});
+// Meteor.startup(function() {
+//   console.log('Server started');
+//   if(Conditions.find().count() === 0) {
+//     console.log('Created dummy conditions');
+//     var dummyConditions = [ { datetime: new Date(), energyLevel: 3 } ];
+//   }
+// });
