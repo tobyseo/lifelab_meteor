@@ -1,0 +1,16 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  background-color:#eee;
+  color:#7B8585;
+}
+
+ul li.focused {
+  color: #fff;
+  background-color: #41c7c2;
+}

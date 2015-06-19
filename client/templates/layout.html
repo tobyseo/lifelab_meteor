@@ -1,0 +1,34 @@
+<template name="layout">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+  <header>
+    <div class="container">
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/result">result</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <main>
+      {{> yield}}
+    </main>
+  </div>
+</template>
+
+<template name="notFound">
+  <div class="center">
+    <h1>Nothing here</h1><br>
+    <h2>You hit a page which doesn't exist!</h2>
+  </div>
+</template>
+
+<template name="loading">
+  <div class="center">
+    <h1>Loading</h1>
+  </div>
+</template>
