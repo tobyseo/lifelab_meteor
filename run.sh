@@ -1,3 +1,7 @@
+# clear
+sudo docker rm -f lifelab_app
+sudo docker rmi -f lifelab_image
+
 # mongo
 sudo docker run -d --name lifelab_db mongo
 
